@@ -1,0 +1,38 @@
+.candidateList {
+    border: 1px solid #777;
+    margin: 4pt;
+    padding: 10pt;
+    font-size: 16pt;
+    background-color: #FFCE54; opacity: 0.8;
+    font-family: helvetica;
+    color:#E9573F;
+    width: 200px;
+    display: inline-block;
+    border-radius: 25px;
+    border-color: white;
+    text-align: left;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+#container{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+  }
+
+h1{
+    color: #E9573F;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h2{
+    color: #FC6E51;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+

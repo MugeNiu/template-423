@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Using Underscore Templates</title>
+      <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <h1>Who's Running for President in 2016</h1>
+    <h2>Candidate Information:</h2>
+    <div id="container">    
+    </div>
+    <script type="text/jst" id = "candidateInfo">
+       <div class='candidateList'>
+            <div class="candidate-image">
+              <img src="imgs/<%= image %>"/>
+            </div>
+            <div style='font-weight:bold'>Name:</div> </br> <div><%= lastname %>, <%= firstname %> </div></br>
+            <div style='font-weight:bold'>Current Position:</div> </br><div><%= currentPosition %> </div></br>
+            <div style='font-weight:bold'>Party:</div> </br><div><%= party %></div></br>
+            <div style='font-weight:bold'>Age:</div> </br><div><%= age %></div></br>
+            <div style='font-weight:bold'>Quote:</div> </br><div><%= toTitleCase(quote) %></div></br>
+       </div> 
+    </script>
+    <script src="js/thirdparty/jquery-1.11.1.min.js"></script>
+    <script src="js/thirdparty/underscore-min.js"></script>
+    <script type="text/javascript" src="js/SampleData.js"></script>
+    
+  </body>
+</html>
